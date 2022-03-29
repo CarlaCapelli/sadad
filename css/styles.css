@@ -1,0 +1,115 @@
+body {
+  background-color: #f1e7b6;
+}
+.header {
+  background-color: rgb(17, 52, 75);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-start;
+ align-content: flex-start;
+
+  width: 100%;
+  height: 100px;
+}
+.encabezado {
+  background-color:pink;
+  width: 200px;
+  height: 50px;
+   font-size: 7px;
+   text-align: center;
+   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+   "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  
+ 
+}
+.menu1{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: :right;
+    color: rgb(17, 52, 75);
+    background-color: rgb(70, 98, 139);
+    width: 50px;
+    height: 20px;
+  }
+
+.logo {
+  width: 5px;
+  height: 5px;
+}
+
+img {
+  width: 250px;
+  height: 180px;
+  display: block;
+  margin: auto;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(17, 52, 75);
+  background-color: rgb(70, 98, 139);
+  width: 100%;
+  height: px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(17, 52, 75);
+  background-color: rgb(70, 98, 139);
+  width: 100%;
+  height: px;
+}
+.img1 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+.img2 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+.img3 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+.doctor {
+  display: block;
+  margin-top: 10px;
+  width: 150px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgb(134, 132, 247);
+}
+h2 {
+  color: rgb(70, 98, 139);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgba(100, 76, 76, 0.089);
+}
+
+.texto {
+  font-style: oblique;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(94, 92, 92);
+  text-align: center;
+}
+.footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgba(100, 76, 76, 0.089);
+  color: rgb(70, 98, 139);
+  font-weight: bold;
+}
